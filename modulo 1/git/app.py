@@ -4,5 +4,4 @@ print("Programacion III")
 
 print("Hola desde la UTE")
 
-print("Yo soy un programador")
-
+print("Hola programador Tanqueno")
