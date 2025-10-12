@@ -1,0 +1,87 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO - TALLER MECÁNICO</title>
+    </head>
+
+    <body>
+        <h2>Formulario de Registro - Taller Mecánico "Motores del Futuro"</h2>
+
+        <form action="registro_servicio.php" method="post">
+            <p>
+                <label for="nombre">Nombre del Cliente:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+            </p>
+
+            <p>
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            </p>
+
+            <p>
+                <label for="vehiculo">Vehículo:</label><br>
+                <input type="text" id="vehiculo" name="vehiculo" placeholder="Ej: Toyota Hilux" required>
+            </p>
+
+            <p>
+                <label for="servicio">Tipo de Servicio:</label><br>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Seleccione...</option>
+                    <option value="aceite">Cambio de Aceite</option>
+                    <option value="frenos">Revisión de Frenos</option>
+                    <option value="alineacion">Alineación y Balanceo</option>
+                    <option value="motor">Mantenimiento del Motor</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="observaciones">Observaciones:</label><br>
+                <textarea id="observaciones" name="observaciones" rows="4" cols="40" placeholder="Describa el problema o detalles adicionales"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </p>
+        </form>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
